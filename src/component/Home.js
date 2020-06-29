@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
-export const Login = () => {
+export const Home = () => {
     return (
         <div>
             
@@ -17,5 +17,4 @@ const mapDispatchToProps = {
     
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(login)
-
+export default connect(mapStateToProps, mapDispatchToProps)(Home)
