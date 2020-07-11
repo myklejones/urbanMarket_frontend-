@@ -1,21 +1,13 @@
-import React, { Component } from 'react'
-import { connect } from 'react-redux'
+import React from 'react'
 
-export const Login = () => {
+function login() {
     return (
         <div>
+            <h1>login page</h1>
             
         </div>
     )
 }
 
-const mapStateToProps = (state) => ({
-    
-})
-
-const mapDispatchToProps = {
-    
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(login)
+export default login;
 
