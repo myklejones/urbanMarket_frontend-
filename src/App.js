@@ -10,8 +10,8 @@ function App() {
    
     <Switch>
       <Route exact path="/home"   render={(routerProps)=><Home {...routerProps}  /> }    />\
-      <Route exact path="*"   render={(routerProps)=><Redirect {...routerProps}  /> }    />
       <Route path="/login"   render={(routerProps)=><Login {...routerProps}  /> }    />
+      <Route exact path="*"   render={(routerProps)=><Redirect {...routerProps}  /> }    />
       </Switch>
   );
 }
