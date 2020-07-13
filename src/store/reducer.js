@@ -1,10 +1,10 @@
 
 
-const initalState = {
+const initialState = {
     
 }
 
-const reducer = (state = initialSatate , action )=>{
+const reducer = (state = initialState , action )=>{
     return state
 }
 
