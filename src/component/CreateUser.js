@@ -1,5 +1,6 @@
-import React, {useState, useEffect} from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
+import {useSelector, useDispatch} from 'react-redux'
 import {Form, Button} from 'react-bootstrap'
 
 
@@ -13,9 +14,7 @@ function NewUser() {
   const [email, setEmail]= useState('')
   const [password, setPassword]= useState('')
 
-
   const formInput = evt => {
-
     console.log(evt.target.name)
     switch(evt.target.name){
       case 'email':
@@ -25,19 +24,10 @@ function NewUser() {
         setPassword(evt.target.value)
         break;  
     }
-    // setInput(evt.target.value)
   }
 
-
-
-
-
-
-  console.log(email, password)
-  console.log("create user page")
     return (
       <div className="container" >
-    
       <Form >
       <Form.Group controlId="formBasicEmail">
         <Form.Label className="mt-5">Email address</Form.Label>
