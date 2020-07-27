@@ -12,8 +12,7 @@ function Footer() {
             <h4>Lorem ipsum</h4>
             <ul className="list-unstyled">
               <li>Lorem, ipsum.</li>
-              <li>Lorem, ipsum.</li>
-              <li>Lorem, ipsum.</li>
+          
               <li>Lorem, ipsum dolor.</li>
             </ul>
           </div> 
@@ -21,7 +20,6 @@ function Footer() {
           <div className="col-md-3 col-sm-6">
             <h4>Lorem ipsum</h4>
             <ul className="list-unstyled">
-              <li><a href="/">Lorem, ipsum.</a></li>
               <li><a href="/">Lorem, ipsum.</a></li>
               <li><a href="/">Lorem, ipsum.</a></li>
               <li><a href="/">Lorem, ipsum.</a></li>              
