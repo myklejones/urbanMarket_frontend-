@@ -20,7 +20,7 @@ function Footer() {
           <div className="col-md-3 col-sm-6">
             <h4>Lorem ipsum</h4>
             <ul className="list-unstyled">
-              <li><a href="/">Lorem, ipsum.</a></li>
+              <li><a href="/">Something would go here </a></li>
               <li><a href="/">Lorem, ipsum.</a></li>
               <li><a href="/">Lorem, ipsum.</a></li>              
               
