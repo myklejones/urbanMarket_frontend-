@@ -32,8 +32,7 @@ function Footer() {
             <ul className="list-unstyled">
             <li><a href="/">Lorem, ipsum.</a></li>
               <li><a href="/">Lorem, ipsum.</a></li>
-              <li><a href="/">Lorem, ipsum.</a></li>
-              <li><a href="/">Lorem, ipsum.</a></li>  
+             
             </ul>
           </div>
           {/* colum 4  */}
@@ -42,8 +41,7 @@ function Footer() {
             <ul className="list-unstyled">
             <li><a href="/">Lorem, ipsum.</a></li>
               <li><a href="/">Lorem, ipsum.</a></li>
-              <li><a href="/">Lorem, ipsum.</a></li>
-              <li><a href="/">Lorem, ipsum.</a></li>  
+     
             </ul>
           </div>
         </div>
