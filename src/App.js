@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 import { Route, Switch} from 'react-router'
-import Login from './component/Login'
-import Home from './component/Home'
-import Redirect from './component/Redirect'
-import CreateUser from './component/CreateUser'
+import Login from './component/pages/Login'
+import Home from './component/pages/Home'
+import Redirect from './component/pages/Redirect'
+import CreateUser from './component/pages/CreateUser'
 
 function App() {
   return (
